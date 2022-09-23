@@ -15,12 +15,6 @@ void OnInit() {
       Print(">>> 5");
    }
    
-   int c = 3;
-   
-   if (!(c == 2)) {
-      Print("YAY");
-   }
-   
    bool result = a != b;
    
    Print(result);
