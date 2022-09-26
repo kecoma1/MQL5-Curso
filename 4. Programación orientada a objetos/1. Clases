@@ -1,0 +1,22 @@
+class Persona {
+   string            nombre;     // nombre 
+   string            apellido;    // apellido
+   
+public:
+   Persona(string n, string a) {
+      this.nombre = n;
+      this.apellido = a;
+   }
+   
+   string ToString() {
+      return nombre+" "+apellido;
+   }
+};
+ 
+void OnInit() {
+
+   Persona object("Kevin", "De la Coba");
+   
+   Print(object.ToString());
+   
+}
